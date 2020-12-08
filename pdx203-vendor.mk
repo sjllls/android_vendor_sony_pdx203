@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx203/proprietary/product/framework/dpmapi.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/dpmapi.jar \
     vendor/sony/pdx203/proprietary/product/framework/embmslibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/embmslibrary.jar \
     vendor/sony/pdx203/proprietary/product/framework/qcrilhook.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qcrilhook.jar \
-    vendor/sony/pdx203/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/sony/pdx203/proprietary/product/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar \
     vendor/sony/pdx203/proprietary/product/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar \
     vendor/sony/pdx203/proprietary/product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.connection-V1.0-java.jar \
@@ -145,7 +144,58 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx203/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/sony/pdx203/proprietary/system/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/sony/pdx203/proprietary/system/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
-    vendor/sony/pdx203/proprietary/system/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so
+    vendor/sony/pdx203/proprietary/system/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_adsp_loader.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_apr.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_bolero_cdc.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_hdmi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_hdmi.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_machine_kona.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_machine_kona.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_mbhc.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_native.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_pinctrl_lpi.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_pinctrl_wcd.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_pinctrl_wcd.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_platform.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_q6.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_q6_notifier.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_q6_pdr.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_rx_macro.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_snd_event.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_stub.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_swr.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_swr_ctrl.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_tx_macro.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_usf.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_va_macro.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_wcd938x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_wcd938x.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_wcd938x_slave.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_wcd938x_slave.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_wcd9xxx.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_wcd_core.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_wsa881x.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/audio_wsa_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_wsa_macro.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/br_netfilter.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/br_netfilter.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/bu520x1nvx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/bu520x1nvx.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/camera_sync.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/camera_sync.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/et580-int.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/et580-int.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/flash_led.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/flash_led.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/last_logs.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/last_logs.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/lcd.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/lcd.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/llcc_perfmon.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/llcc_perfmon.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/modules.alias:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/modules.alias \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/modules.dep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/modules.dep \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/mpq-adapter.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/mpq-dmx-hw-plugin.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/nxp_pn553_nfc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/nxp_pn553_nfc.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/powerkey_forcecrash.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/powerkey_forcecrash.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/qca_cld3_wlan.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/rdbg.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/rmnet_perf.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/rmnet_shs.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/sec_touchscreen.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/sec_touchscreen.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/slg51000-regulator.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/slg51000-regulator.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/sony_camera.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/sony_camera.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/tcs3490.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/tcs3490.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/texfat.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/texfat.ko \
+    vendor/sony/pdx203/proprietary/product/vendor_overlay/29/lib/modules/tspp.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/tspp.ko
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
